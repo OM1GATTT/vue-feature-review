@@ -9,10 +9,10 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterLink to="/computed">computed</RouterLink>
     <RouterLink to="/watch">watch</RouterLink>
     <RouterLink to="/watchEffect">watchEffect</RouterLink>
-                <RouterLink to="/component">component</RouterLink>
-                <RouterLink to="/directive">directive</RouterLink>
-                <RouterLink to="/hooks">hooks</RouterLink>
-              </div> -->
+                                    <RouterLink to="/component">component</RouterLink>
+                                    <RouterLink to="/directive">directive</RouterLink>
+                                    <RouterLink to="/hooks">hooks</RouterLink>
+                                  </div> -->
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -73,6 +73,16 @@ import { RouterLink, RouterView } from 'vue-router'
               <RouterLink to="/hooks">hooks</RouterLink>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <RouterLink to="/use">use</RouterLink>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <RouterLink to="/socks">socks</RouterLink>
+            </a>
+          </li>
         </ul>
         <!-- Left links -->
       </div>
@@ -109,8 +119,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="dropdown">
           <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
             role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-            <img src="./assets/img/preview.jpg" class="rounded-circle" height="25" alt="Black and White Portrait of a Man"
-              loading="lazy" />
+            <img src="./assets/img/preview.jpg" class="rounded-circle ava " alt="avatar" loading="lazy" />
           </a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
             <li>
@@ -139,5 +148,10 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 a {
   color: #0000008c;
+}
+
+.ava {
+  height: 25px;
+  width: auto;
 }
 </style>

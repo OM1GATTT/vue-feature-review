@@ -44,6 +44,16 @@ const router = createRouter({
       name: 'hooks',
       component: () => import('../views/HooksView.vue')
     },
+    {
+      path: '/use',
+      name: 'use',
+      component: () => import('../views/UseView.vue')
+    },
+    {
+      path: '/socks',
+      name: 'socks',
+      component: () => import('../views/SocksView.vue')
+    }
   ]
 })
 
